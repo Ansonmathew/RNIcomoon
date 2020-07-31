@@ -11,7 +11,6 @@ import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'rea
 
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
 import icoMoonConfig from './selection.json';
-
 const Icon = createIconSetFromIcoMoon(icoMoonConfig);
 
 const App = () => {
